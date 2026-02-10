@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parth Cotton | Cotton Seed Cake Supplier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Parth Cotton is a trusted Cotton Seed Cake supplier in Gujarat. Quality animal feed, bulk orders available.">
+  <meta name="keywords" content="Parth Cotton, Cotton Seed Cake, Animal Feed, Gujarat">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Parth Cotton Logo" class="logo">
+  <h1>Parth Cotton</h1>
+  <p id="tagline-gu">Cotton Seed Cake નો વિશ્વસનીય સપ્લાયર</p>
+  <p id="tagline-en" class="hide">Trusted Supplier of Cotton Seed Cake</p>
+  <button onclick="toggleLang()" class="btn">ગુજરાતી / English</button>
+  <a href="tel:6353914960" class="btn">📞 Call</a>
+</header>
+
+<section>
+  <h2>અમારા વિશે | About Us</h2>
+  <p id="about-gu">
+    Parth Cotton ઉચ્ચ ગુણવત્તાનું Cotton Seed Cake સપ્લાય કરે છે.
+    પશુઆહાર માટે શ્રેષ્ઠ ગુણવત્તા અને સમયસર ડિલિવરી અમારી ઓળખ છે.
+  </p>
+  <p id="about-en" class="hide">
+    Parth Cotton supplies premium quality Cotton Seed Cake for animal feed with trust and timely delivery.
+  </p>
+</section>
+
+<section>
+  <h2>Our Product</h2>
+  <div class="products">
+    <div class="card">Cotton Seed Cake<br><small>High Nutrition</small></div>
+    <div class="card">Bulk Supply<br><small>Best Price</small></div>
+    <div class="card">Animal Feed<br><small>Quality Assured</small></div>
+  </div>
+</section>
+
+<section>
+  <h2>Enquiry Form</h2>
+  <form action="mailto:parthcotton@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="tel" name="Phone" placeholder="Mobile Number" required>
+    <textarea name="Message" placeholder="Your Requirement"></textarea>
+    <button type="submit" class="btn">Send Enquiry</button>
+  </form>
+</section>
+
+<section>
+  <h2>Location</h2>
+  <iframe src="https://www.google.com/maps?q=Bordi%20Gujarat%20364240&output=embed"
+    width="100%" height="250" style="border:0;" loading="lazy"></iframe>
+</section>
+
+<footer>
+  <p>📞 6353914960 | 📍 Bordi–Tana Road, Bordi, Gujarat – 364240</p>
+  <p>© 2026 Parth Cotton</p>
+</footer>
+
+<a href="https://wa.me/916353914960" class="whatsapp">💬 WhatsApp</a>
+
+<script>
+function toggleLang(){
+  document.getElementById("tagline-gu").classList.toggle("hide");
+  document.getElementById("tagline-en").classList.toggle("hide");
+  document.getElementById("about-gu").classList.toggle("hide");
+  document.getElementById("about-en").classList.toggle("hide");
+}
+</script>
+
+</body>
+</html>
